@@ -1,0 +1,119 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How may I help you?",
+        "Welcome! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks, bye"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "Thank you for contacting us. See you soon!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Glad I could assist you."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services do you provide?",
+        "Tell me about your services",
+        "What can you help me with?"
+      ],
+      "responses": [
+        "We provide customer support, product information, and service assistance.",
+        "Our services include support, inquiries, and issue resolution."
+      ]
+    },
+    {
+      "tag": "working_hours",
+      "patterns": [
+        "What are your working hours?",
+        "When are you available?",
+        "Office timing"
+      ],
+      "responses": [
+        "We are available from 9 AM to 6 PM, Monday to Friday.",
+        "Our working hours are 9 AM to 6 PM on weekdays."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact support?",
+        "Customer care number",
+        "Support email"
+      ],
+      "responses": [
+        "You can contact our support team via email at support@example.com.",
+        "Please reach out to us at support@example.com for assistance."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "What is the pricing?",
+        "How much does it cost?",
+        "Service charges"
+      ],
+      "responses": [
+        "Pricing depends on the service. Please contact support for detailed pricing.",
+        "Our pricing varies based on requirements. Reach out for a quote."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "What is your refund policy?",
+        "Can I get a refund?",
+        "Refund process"
+      ],
+      "responses": [
+        "Refunds are processed as per our refund policy. Please contact support for details.",
+        "Our team will assist you with the refund process."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I have a complaint",
+        "I want to report an issue",
+        "Not satisfied with service"
+      ],
+      "responses": [
+        "We're sorry to hear that. Please describe your issue and we will assist you.",
+        "Your feedback is important to us. Kindly share more details."
+      ]
+    }
+  ]
+}
